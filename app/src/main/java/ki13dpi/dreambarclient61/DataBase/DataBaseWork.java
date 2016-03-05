@@ -21,6 +21,7 @@ public class DataBaseWork {
     Cursor cursor;
     SQLiteDatabase db;
     List<DataBaseElem> dataBaseElemList;
+    ArrayList<ElemMenu> elemMenuArrayList;
 
     public DataBaseWork(Context context) {
         this.context = context;
@@ -78,7 +79,7 @@ public class DataBaseWork {
 
     // метод возвращающий коллекцию всех данных в формате ElemMenu
     public ArrayList<ElemMenu> getElemMenuListFromDataBase(){
-        ArrayList<ElemMenu> elemMenuArrayList = new ArrayList<>();
+        elemMenuArrayList = new ArrayList<>();
 
         cursor = db.query(DataBaseHelper.TABLE_NAME, null, null, null, null, null, null);
 
