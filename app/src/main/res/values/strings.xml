@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DreamBarClient 6.1</string>
+    <string name="s_newOrder">новый заказ</string>
+    <string name="s_OK">OK</string>
+    <string name="s_back">Назад</string>
+    <string name="inputNumTable">Введите № стола</string>
+</resources>
