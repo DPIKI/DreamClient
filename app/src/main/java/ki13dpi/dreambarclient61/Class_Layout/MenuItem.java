@@ -38,9 +38,4 @@ public class MenuItem extends AppCompatActivity {
         ListView listViewItemMenu = (ListView) findViewById(R.id.lv_menuItem);
         listViewItemMenu.setAdapter(_itemAdapter);
     }
-
-    public void onClickBackCategory(View view){
-        Intent intent = new Intent(this,ListMenu.class);
-        startActivity(intent);
-    }
 }

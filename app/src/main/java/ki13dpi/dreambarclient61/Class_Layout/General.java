@@ -25,4 +25,8 @@ public class General extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void onClickMenu(View view){
+        Intent intent = new Intent(this, ListMenu.class);
+        startActivity(intent);
+    }
 }

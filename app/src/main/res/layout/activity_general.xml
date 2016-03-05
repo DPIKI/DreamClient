@@ -9,22 +9,31 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Class_Layout.General">
 
-    <Button
+    <LinearLayout
+        android:layout_centerInParent="true"
+        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/s_newOrder"
-        android:id="@+id/b_newOrder"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true"
-        android:onClick="onClickNewOrder" />
+        android:layout_height="wrap_content">
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="debug"
-        android:id="@+id/b_debug"
-        android:onClick="onDebugClick"
-        android:layout_below="@+id/b_newOrder"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/s_newOrder"
+            android:id="@+id/b_newOrder"
+            android:onClick="onClickNewOrder" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="debug"
+            android:id="@+id/b_debug"
+            android:onClick="onDebugClick" />
+
+        <Button
+            android:id="@+id/b_menu"
+            android:text="@string/s_menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="onClickMenu"/>
+    </LinearLayout>
 </RelativeLayout>
