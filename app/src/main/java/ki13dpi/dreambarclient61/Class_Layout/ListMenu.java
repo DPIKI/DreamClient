@@ -12,6 +12,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import ki13dpi.dreambarclient61.DataBase.DataBaseWork;
 import ki13dpi.dreambarclient61.Logic.ElemMenu;
 import ki13dpi.dreambarclient61.R;
 import ki13dpi.dreambarclient61.Logic.Singleton;
@@ -28,12 +29,14 @@ public class ListMenu extends AppCompatActivity {
 
         Singleton singleton = Singleton.getInstance();
         ArrayList<String> out = new ArrayList<>();
+
         //
         out = ListMenu.InitializeCategoryList(singleton.getElemMenuArrayList());
         //
         _categoryAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,out);
         ListView listViewCategory = (ListView) findViewById(R.id.lv_Menu);
         listViewCategory.setAdapter(_categoryAdapter);
+
 
         listViewCategory.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
