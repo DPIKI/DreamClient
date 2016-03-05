@@ -1,3 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_d8b6aac2453fbb1d34b064c29ef77e096f7718c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_b34749f4323d13c1ff6c044f705cf454c5c35f82.jar" />
+    </item>
+    <item
+        jar="C:\Users\prog1\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_e1c95708aecf82f15f53367443cdff8eabf299c5.jar" />
+    </item>
+    <item
+        jar="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="C:\Users\prog1\Desktop\WorkingVersion\Anfang\DreamClient\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_2bd0538732c9ac32296c791b6dc5a49ed21b0f82.jar" />
+    </item>
+
+</items>

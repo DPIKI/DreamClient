@@ -12,13 +12,11 @@
         <activity android:name=".Class_Layout.General">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity android:name=".Class_Layout.SelectTable" />
         <activity android:name=".Class_Layout.ListMenu" />
-        <activity android:name=".Class_Layout.MenuCategory" />
         <activity android:name=".Debug" />
         <activity android:name=".Class_Layout.MenuItem"></activity>
     </application>
